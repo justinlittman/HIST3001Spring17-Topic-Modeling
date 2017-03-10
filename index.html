@@ -1,1 +1,76 @@
-<h1>Test</h1>
+<html>
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="jumbotron">
+      <h1>Topic modeling results for GWU History 3001, Spring 2017</h1>
+      <p>Generated using <a href="http://mallet.cs.umass.edu/topics.php">Mallet</a> with <a href="https://code.google.com/archive/p/topic-modeling-tool/">Topic Modeling Tool</a>.</p>
+    </div>
+    <p>Except for result 5, all of these tests were run with cleaned data. To clean the data, page headers, footer,
+        and annotations were removed. The clean data is available <a href="https://github.com/justinlittman/HIST3001Spring17-Topic-Modeling/tree/master/cleaned-data">here</a> and the source data is available <a href="https://github.com/justinlittman/HIST3001Spring17-Topic-Modeling/tree/master/data">here</a>.</p>
+    <div>
+        <h2>Result 1</h2>
+        <h4><a href="./cleaned-10_topics/output_html/all_topics.html">HTML</a> | <a href="https://github.com/justinlittman/HIST3001Spring17-Topic-Modeling/tree/master/cleaned-10_topics/output_csv">CSV</a></h4>
+        <ul>
+            <li>Cleaned data</li>
+            <li>10 topics</li>
+            <li>Stop words removed</li>
+        </ul>
+        <p class="alert alert-success">Can you make sense of the topics? Can you give each of the topics a name? Do the files associated with a topic reveal anything?</p>
+    </div>
+    <br />
+    <div>
+        <h2>Result 2</h2>
+        <h4><a href="./cleaned-5_topics/output_html/all_topics.html">HTML</a> | <a href="https://github.com/justinlittman/HIST3001Spring17-Topic-Modeling/tree/master/cleaned-5_topics/output_csv">CSV</a></h4>
+        <ul>
+            <li>Cleaned data</li>
+            <li><mark>5 topics</mark></li>
+            <li>Stop words removed</li>
+        </ul>
+        <p class="alert alert-success">Does reducing to 5 topics make the topics clearer?</p>
+    </div>
+    <br />
+    <div>
+        <h2>Result 3</h2>
+        <h4><a href="./cleaned-20_topics/output_html/all_topics.html">HTML</a> | <a href="https://github.com/justinlittman/HIST3001Spring17-Topic-Modeling/tree/master/cleaned-20_topics/output_csv">CSV</a></h4>
+        <ul>
+            <li>Cleaned data</li>
+            <li><mark>20 topics</mark></li>
+            <li>Stop words removed</li>
+        </ul>
+        <p class="alert alert-success">Does increasing to 20 topics make the topics clearer?</p>
+    </div>
+    <br />
+    <div>
+        <h2>Result 4</h2>
+        <h4><a href="./cleaned_with_stopwords-10_topics/output_html/all_topics.html">HTML</a> | <a href="https://github.com/justinlittman/HIST3001Spring17-Topic-Modeling/tree/master/cleaned_with_stopwords-10_topics/output_csv">CSV</a></h4>
+        <ul>
+            <li>Cleaned data</li>
+            <li>10 topics</li>
+            <li><mark>Stop words included</mark></li>
+        </ul>
+        <p class="alert alert-success">Does including the stopwords improve or degrade the results?</p>
+    </div>
+    <br />
+    <div>
+        <h2>Result 5</h2>
+        <h4><a href="./not_cleaned-10_topics/output_html/all_topics.html">HTML</a> | <a href="https://github.com/justinlittman/HIST3001Spring17-Topic-Modeling/tree/master/not_cleaned-10_topics/output_csv">CSV</a></h4>
+        <ul>
+            <li><mark>Original (uncleaned data)</mark></li>
+            <li>10 topics</li>
+            <li>Stop words removed</li>
+        </ul>
+        <p class="alert alert-success">Does cleaning the corpus improve or degrade the results?</p>
+    </div>
+</div>
+</body>
+</html>
