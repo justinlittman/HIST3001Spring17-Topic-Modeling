@@ -1,0 +1,22 @@
+docId,filename,top topics, and contribution to doc ...
+1,/Users/justinlittman/Data/HIST3001Spring17-Topic-Modeling/./data-cleaned/7460388-brock.txt,3,0.388,1,0.252,2,0.248,5,0.091
+2,/Users/justinlittman/Data/HIST3001Spring17-Topic-Modeling/./data-cleaned/7460406-carrico.txt,4,0.652,3,0.172,2,0.111
+3,/Users/justinlittman/Data/HIST3001Spring17-Topic-Modeling/./data-cleaned/7460420-clark.txt,4,0.554,3,0.351
+4,/Users/justinlittman/Data/HIST3001Spring17-Topic-Modeling/./data-cleaned/7460426-connally_1.txt,1,0.632,2,0.220,4,0.058
+5,/Users/justinlittman/Data/HIST3001Spring17-Topic-Modeling/./data-cleaned/7460427-connally_2.txt,2,0.405,1,0.348,4,0.179
+6,/Users/justinlittman/Data/HIST3001Spring17-Topic-Modeling/./data-cleaned/7460428-connally_3.txt,1,0.470,4,0.417,2,0.058
+7,/Users/justinlittman/Data/HIST3001Spring17-Topic-Modeling/./data-cleaned/7460429-connally_4.txt,1,0.538,2,0.206,3,0.110,5,0.109
+8,/Users/justinlittman/Data/HIST3001Spring17-Topic-Modeling/./data-cleaned/7460436-couch.txt,3,0.468,2,0.467
+9,/Users/justinlittman/Data/HIST3001Spring17-Topic-Modeling/./data-cleaned/7460440-craig.txt,2,0.518,3,0.368,5,0.055,1,0.053
+10,/Users/justinlittman/Data/HIST3001Spring17-Topic-Modeling/./data-cleaned/7460447-croy.txt,3,0.650,2,0.161,1,0.095,5,0.057
+11,/Users/justinlittman/Data/HIST3001Spring17-Topic-Modeling/./data-cleaned/7460448-crull.txt,3,0.643,5,0.123,2,0.102,1,0.090
+12,/Users/justinlittman/Data/HIST3001Spring17-Topic-Modeling/./data-cleaned/7460456-davis_barbara.txt,2,0.744,1,0.112,3,0.066,4,0.054
+13,/Users/justinlittman/Data/HIST3001Spring17-Topic-Modeling/./data-cleaned/7460458-davis_mrs.txt,5,0.352,2,0.328,3,0.257
+14,/Users/justinlittman/Data/HIST3001Spring17-Topic-Modeling/./data-cleaned/7460571-hill.txt,2,0.451,3,0.263,1,0.171,5,0.073
+15,/Users/justinlittman/Data/HIST3001Spring17-Topic-Modeling/./data-cleaned/7460589-hunt.txt,4,0.593,3,0.324
+16,/Users/justinlittman/Data/HIST3001Spring17-Topic-Modeling/./data-cleaned/7460609-johnson.txt,1,0.545,5,0.163,4,0.139,2,0.096,3,0.056
+17,/Users/justinlittman/Data/HIST3001Spring17-Topic-Modeling/./data-cleaned/7460610-johnson_mrs.txt,1,0.725,4,0.109,2,0.092
+18,/Users/justinlittman/Data/HIST3001Spring17-Topic-Modeling/./data-cleaned/7461007-ray_frank.txt,5,0.804,2,0.125
+19,/Users/justinlittman/Data/HIST3001Spring17-Topic-Modeling/./data-cleaned/7461009-ray_thomas.txt,5,0.506,3,0.360,2,0.076
+20,/Users/justinlittman/Data/HIST3001Spring17-Topic-Modeling/./data-cleaned/7461017-reeves.txt,3,0.734,5,0.122,2,0.078
+21,/Users/justinlittman/Data/HIST3001Spring17-Topic-Modeling/./data-cleaned/7461032-riggs.txt,3,0.611,5,0.246,2,0.077
